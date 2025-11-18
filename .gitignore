@@ -1,0 +1,118 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+build/
+**/generated_plugin_registrant.dart
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+.history/
+
+# Flutter specific
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.flutter-configuration
+version.json
+
+# Dart analysis
+.analysis_options*
+.dartignore
+
+# Logs
+*.log
+flutter_*.png
+
+# Dependency artifacts
+pubspec.lock     # (ถ้าเป็น Flutter package ให้เก็บไว้ แต่ถ้าเป็น application ไม่ต้อง)
+
+# Environment
+.env
+.env.*
+
+# macOS
+.DS_Store
+*.plist
+xcuserdata/
+DerivedData/
+build/
+Flutter/ephemeral/
+Flutter/flutter_export_environment.sh
+Flutter/Generated.xcconfig
+
+# iOS
+Pods/
+Podfile.lock        # *ถ้าทำ iOS CI อาจต้องเก็บไว้*
+Runner/GeneratedPluginRegistrant.*
+Runner/GeneratedPluginRegistrant.m
+Runner/GeneratedPluginRegistrant.h
+
+# Android
+local.properties
+.gradle/
+**/gradle-wrapper.jar
+**/captures/
+**/*.keystore
+**/*.jks
+**/*.properties
+app/release/
+app/debug/
+app/profile/
+
+# Android auto-generated
+**/GeneratedPluginRegistrant.java
+**/GeneratedPluginRegistrant.kt
+
+# Windows
+windows/flutter/ephemeral/
+*.exe
+*.dll
+*.pdb
+
+# Linux
+linux/flutter/ephemeral/
+
+# Web
+web/.dart_tool/
+web/.firebase/*
+web/build/
+web/generated_plugin_registrant.dart
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+firebase_app_id_file.json
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Coverage
+coverage/
+lcov.info
+
+# Build caches
+.gradle/
+.dart_tool/
+build/
+
+# Temp
+tmp/
+temp/
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# Crashlytics / Fabric
+crashlytics-build.properties
